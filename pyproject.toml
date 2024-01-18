@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="pet2face"
+authors=[
+    {name="Emma Bou Hanna", email="emma.g.bouhanna@gmail.com"},
+    {name="Sebastian Partarrieu", email="sebastian.partarrieu@etu.minesparis.psl.eu"}
+]
+description="PET2FACE"
+requires-python=">=3.8"
+version="0.1.0"
+
+[tool.setuptools.packages.find]
+where=['src']
+include=['pet2face']
